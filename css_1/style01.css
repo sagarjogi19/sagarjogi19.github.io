@@ -1,0 +1,146 @@
+/*font-family: 'Quicksand';*/
+
+/* Featured Parts Section Css Start */
+
+.featuredBox { position: relative; width: 20%; float: left; padding: 0 10px; text-align: center;margin-bottom: 20px;}
+.featuredImg { position: relative; border: 1px solid #e1e1e1;}
+.featuredBox a { display: block; -moz-transition: all 0.4s ease-in-out; -ms-transition: all 0.4s ease-in-out; -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;}
+.featuredPartMain { margin: 0 -10px;}
+.mainTitle { font-size: 22px; line-height: 36px; position: relative; display: inline-block; padding: 0 30px; color: #000; font-weight: 700; margin-bottom: 7px;}
+.mainTitle:before { background: #00c55c; width: 20px; height: 1px; content: ''; position: absolute; left: 0; top: 50%;}
+.mainTitle:after {background: #00c55c; width: 20px; height: 1px; content: ''; position: absolute; right: 0; top: 50%;}
+.feaTitle { font-size: 14px; line-height: 36px; color: #010000; font-weight: 400; -moz-transition: all 0.4s ease-in-out; -ms-transition: all 0.4s ease-in-out; -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;}
+.featuredBoxInn a:after { background: #00c55c; width: 100%;    height: 2px;    position: absolute;    content: '';    left: 0;    right: 0;    margin: auto; -webkit-transform: scaleX(0); -ms-transform: scaleX(0);    transform: scaleX(0); -moz-transition: all 0.4s ease-in-out; -ms-transition: all 0.4s ease-in-out; -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;}
+.feaSec .viewalltext { margin: -37px 0 0;}
+.feaSec .secttl {
+    text-transform: capitalize;
+}
+
+/* Featured Parts Section Css End */
+
+
+/* Benefit and Trading Section Css Start */
+
+.benefitSec { background: #fafafa;}
+.benefitSec .mainTitle:before { display: none;}
+.benefitSec .mainTitle { padding-left: 0; text-transform: uppercase;}
+.benefitBox { position: relative;}
+.benefitImg { position: relative;}
+.ourBenefits { float: left; width: calc(100% - 490px);}
+.benefitBox { position: relative; float: left; width: 50%; padding: 0 10px;}
+.benefitsMain { margin: 0 -10px;}
+.benefitCap {background: #00c55c;padding: 6px 14px 6px 21px;}
+.benefitBoxInn { border-radius: 4px; overflow: hidden;}
+.benefitTitle { font-size: 20px; line-height: 36px; color: #fff; display: inline-block; /*max-width: 246px;*/ width: calc(100% - 49px); vertical-align: middle;}
+.benefitIcon { display: inline-block; vertical-align: middle; }
+.tradingAct { max-width: 480px; width: 100%; float: right;}
+.tradingAct .benefitBox { width: 100%;}
+.tradingAct .benefitTitle {color: #000; width: calc(100% - 33px);}
+.tradingAct .benefitCap {background: #feda00;padding: 7px 14px 7px 21px;}
+.benefitSec .tradingAct .mainTitle {padding-left: 10px;}
+
+
+/* Benefit and Trading Section Css End */
+
+/* Loved by our customer section css start */
+
+.customerSec .mainTitle { text-transform: uppercase; color: #fff;}
+.customerSec { background: url(../images/testimonial-bg.jpg) no-repeat; background-size: cover;}
+.customerSlider { margin: 0 -5px;}
+.customerBoxInn { background: #fff; padding: 24px 17px;}
+.customerName { font-size: 18px; color: #000101; line-height: 20px; font-weight: 500;}
+.customerDesi {font-size: 13px;color: #666;font-weight: 500;line-height: 21px;padding-bottom:8px; padding-top: 2px;}
+.customerBoxCon p {font-size: 15px; line-height: 24px; color: #000;}
+.customerBoxCon { text-align: left; width: calc(100% - 107px); padding-left: 11px; display: inline-block;}
+.customerSlider { margin: 0 -10px;}
+.customerBox { padding: 0 5px;}
+.slick-dots { text-align: center; padding-top: 14px;}
+.slick-dots li { display: inline-block; margin-right: 10px; z-index: 9; position: relative;}
+.slick-dots .slick-active button { background: rgb(254,218,0) !important; }
+.slick-dots > li button { background: rgba(254,218,0,0.3); border-radius: 50%; font-size: 0px; margin-right: 0; width: 10px; height: 10px;}
+.comSpacing.customerSec {padding: 20px 0;}
+.customerBoxImg img { position: absolute; left: 0; right: 0; margin: auto; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); transform: translateY(-50%);}
+.customerBoxImg {display: inline-block;vertical-align: top;width: 92px;height: 92px;border: 1px solid #e1e1e1;position: relative;margin-top: 10px;}
+
+/* Loved by our customer section css end */
+
+
+/* --------- Medai Query----------- */
+
+/* css only for hover effect all hover effect must write in this Media query */
+@media only screen and (min-width: 1200px) {
+    .featuredBox a:hover:after { -webkit-transform: scaleX(1); -ms-transform: scaleX(1);    transform: scaleX(1);}
+    .featuredBox a:hover .feaTitle { /*font-weight: 500;*/}
+    .adverBannerMain { padding-top: 10px;}
+}
+
+/* Custome responsive css start from here */
+
+/* common css for below screen 1199 */
+@media only screen and (max-width: 1199px) {}
+
+/* common css for below screen 991 */
+@media only screen and (max-width: 991px) {
+
+}
+
+/* common css for below screen 767 */
+@media only screen and (max-width: 767px) {
+    .mainTitle {font-size: 20px; line-height: 26px; margin-bottom: 15px;}
+    
+    .featuredBox { width: 33.33%;}
+    .ourBenefits { width: 100%;}
+    .benefitCap {padding: 7px 14px 7px 15px;}
+    .benefitBoxInn { margin-bottom: 15px;}
+    .benefitTitle { font-size: 18px; line-height: 22px; }
+    .benefitSec .tradingAct .mainTitle { padding-left: 0;}
+    .benefitImg img { margin: auto; display: block;}
+    .tradingAct .benefitBox { width: 100%;}
+    .tradingAct { max-width: 100%;}
+}
+
+
+/* common css for below screen 479 */
+@media only screen and (max-width: 479px) {
+    .featuredBox { width: 50%;}
+    .customerBoxCon {padding-top: 15px; text-align: center; padding-left: 0; width: 100%;} 
+    .benefitBox {  width: 100%; padding: 0 15px;}
+    .benefitsMain { margin: 0 -15px;}
+    .tradingAct .benefitBox { padding: 0;}
+    .customerBoxImg { margin-top: 0px; } 
+.feaSec .viewalltext {
+    margin: -10px 0 10px;
+}
+
+}
+
+
+/* common css for screen size between 480 to 767 */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+
+/* common css for screen size between 568 to 767 */
+@media only screen and (min-width: 568px) and (max-width: 767px) {}
+
+
+/* common css for screen size between 600 to 767 */
+@media only screen and (min-width: 600px) and (max-width: 767px) {}
+
+
+/* common css for screen size between 768 to 1199 */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    
+}
+
+
+/* common css for screen size between 768 to 1023 */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .benefitBox { width: 100%; margin-bottom: 15px;}
+}
+
+
+/* common css for screen size between 1024 to 1199 */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .benefitTitle { font-size: 18px;}
+}
+

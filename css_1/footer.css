@@ -1,0 +1,73 @@
+/*font-family: 'Roboto', sans-serif;*/
+.quick_links li{width: 33.33%;}
+.footerSubNewsletter .footTitle{display: none;}
+.newsLetterBlock{background: rgba(254, 218, 0, 0.25);width: 257px;height: 107px;position: relative;border-radius: 4px;padding: 12px;z-index: 1;cursor: pointer;}
+.newsLetterBlock:after{content:'';background: rgba(254, 218, 0, 1);position: absolute;left: 0;right: 0;top: 0;bottom: 0;margin: 4px;z-index: -1;}
+.newsLetterBlock.removePointer{cursor: default;}
+.newsIconDiv{display: inline-block;vertical-align: middle;margin-right: 8px;}
+.newsTextDiv{display: inline-block;vertical-align: middle;width: calc(100% - 68px);}
+.newsIcon{width: 55px;height: 55px;background: #000;border-radius: 50%;color:#fec500;display: block;box-shadow: 0 0 0 3px rgba(0,0,0,0.2);font-size: 28px;padding: 14px 12px;}
+.newsText{font-family: 'Montserrat',sans-serif;font-size: 22px;line-height: 24px;font-weight: 700;color: #000;display: block;}
+.newsFooterLogo{display: block;margin-bottom: 2px;margin-top: 2px;}
+.newsLatterFrmDiv{display: none;}
+.footerNewsTitle{font-family: 'Montserrat',sans-serif;font-size: 18px;line-height: 24px;font-weight: 700;color: #000;margin-bottom: 4px;margin-top: 4px;}
+/*---------Medai Query-----------*/
+
+/* css only for hover effect all hover effect must write in this Media query */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* Custome responsive css start from here */
+
+/* common css for below screen 1920 */
+@media only screen and (max-width: 1900px) {
+
+}
+
+/* common css for below screen 1199 */
+@media only screen and (max-width: 1199px) {}
+
+/* common css for below screen 991 */
+@media only screen and (max-width: 991px) {
+
+}
+
+/* common css for below screen 767 */
+@media only screen and (max-width: 767px) {
+    .quick_links li{width: 50%;}
+}
+
+
+/* common css for below screen 479 */
+@media only screen and (max-width: 479px) {}
+
+
+/* common css for below screen 350 */
+@media only screen and (max-width: 350px) {}
+
+
+/* common css for screen size between 480 to 767 */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+
+/* common css for screen size between 568 to 767 */
+@media only screen and (min-width: 568px) and (max-width: 767px) {
+    .quick_links li{width: 33.33%}
+}
+
+
+/* common css for screen size between 600 to 767 */
+@media only screen and (min-width: 600px) and (max-width: 767px) {}
+
+
+/* common css for screen size between 768 to 1199 */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {}
+
+
+/* common css for screen size between 768 to 1023 */
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+
+/* common css for screen size between 1024 to 1199 */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
