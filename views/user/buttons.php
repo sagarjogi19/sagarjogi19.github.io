@@ -1,0 +1,4 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
+ <a title="Back To List" href="<?php echo setLink($backLink); ?>" class="backBtnClass btn skyBlueBtn" ><i class="fa fa-arrow-left" aria-hidden="true"></i> List</a><?php if($showSave==true) { ?><a  title="Save & Continue" href="javascript:;" class="saveBtnClass btn" onclick="document.getElementById('saveBtn').value = '0';submitFrm(jQuery('#<?php echo $form; ?>'));return false;" >Save & Continue</a> <a href="javascript:;"  class="saveBtnClass btn" title="Save" onclick="document.getElementById('saveBtn').value = '1';submitFrm(jQuery('#<?php echo $form; ?>'));return false;">Save </a><?php } ?>
