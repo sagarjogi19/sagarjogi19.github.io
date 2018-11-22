@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+ RewriteEngine on
+ RewriteRule ^image-catalog/(.*)/(.*)/(.*)/(.*)/(.*)$  ./image.php?image=$1&size=$2&userid=$3&mp_id=$4&module=$5 [L] 
+ RewriteCond $1 !^(index\.php|resources|robots\.txt)
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteRule ^(.*)$ index.php/$1 [L,QSA] 
+</IfModule> 
